@@ -1,0 +1,12 @@
+.navigation
+
+    .logo
+        a(href= nav.logo.link)= nav.logo.title
+
+    include menu
+
+    .social
+        +socialItem(nav.social.facebook.link, nav.social.facebook.src, nav.social.facebook.alt)
+        +socialItem(nav.social.instagram.link, nav.social.instagram.src, nav.social.instagram.alt)
+        +socialItem(nav.social.mail.link, nav.social.mail.src, nav.social.mail.alt)
+

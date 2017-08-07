@@ -3,3 +3,8 @@ mixin icon(name,mod)
 	svg(class="icon icon-" + name + ' ' + mod)
 		use(xlink:href="/static/img/svg/symbol/sprite.svg#" + name)
 
+
+mixin socialItem(link, imgSrc, imgAlt)
+	.social-item
+		a(href= link)
+			img(src= imgSrc, alt= imgAlt)

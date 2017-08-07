@@ -1,7 +1,32 @@
 {
-  "navPages": {
-    "Главная страница" : "main.html",
-    "О компании" : "about.html",
-    "Каталог" : "catalog.html"
+  "logo": {
+    "title": "Surfers Co.",
+    "link": "index.html"
+  },
+  "menu": {
+    "BOARDS": "index.html#boards",
+    "ACCESSORIES": "index.html#accessories",
+    "BLOG": "index.html#blog",
+    "TECHNOLOGY": "index.html#technology",
+    "TEAM": "index.html#team",
+    "DEALERS": "index.html#dealers"
+  },
+
+  "social": {
+    "facebook": {
+      "link": "#",
+      "src": "static/img/general/facebook-logo.png",
+      "alt": "facebook link"
+    },
+    "instagram": {
+      "link": "#",
+      "src": "static/img/general/instagram-logo.png",
+      "alt": "instagram link"
+    },
+    "mail": {
+      "link": "#",
+      "src": "static/img/general/envelope.png",
+      "alt": "mail link"
+    }
   }
 }

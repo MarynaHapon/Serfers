@@ -1,0 +1,38 @@
+.navigation
+    margin 30px 0 0 0
+    display flex
+    flex-direction row
+    justify-content space-between
+    align-items center
+
+.logo
+    font-family 'Montserrat'
+    font-size 34px
+    font-weight bold
+
+    a
+        color $logo
+
+        &:hover
+            color $logo-hover
+
+.social
+    display flex
+    flex-direction row
+
+.social-item
+    padding 0 4px
+
+    a
+        display inline-flex
+        justify-content center
+        align-items center
+        size(38px)
+        border-radius 100%
+        background-color $social-item-bg
+
+        &:hover
+            background-color $social-item-bg-hover
+
+        img
+            size(20px)
