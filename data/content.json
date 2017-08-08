@@ -2,5 +2,21 @@
   "slogan": {
     "title" : "Ride every wave as if it's your last",
     "subTitle" : "We love the motion of the ocean"
+  },
+  "carousel": {
+    "surfboards0": "static/img/content/board1.png",
+    "surfboards1": "static/img/content/photo1.jpeg",
+    "surfboards2": "static/img/content/photo2.jpg",
+    "surfboards3": "static/img/content/photo3.jpg",
+    "surfboards4": "static/img/content/board2.png",
+    "surfboards5": "static/img/content/board3.png",
+    "surfboards6": "static/img/content/board4.png",
+    "surfboards7": "static/img/content/board5.png",
+    "surfboards8": "static/img/content/board6.png",
+    "surfboards9": "static/img/content/board7.png",
+    "surfboards10": "static/img/content/board8.png",
+    "surfboards11": "static/img/content/board9.png",
+    "surfboards12": "static/img/content/board10.png",
+    "surfboards13": "static/img/content/board11.png"
   }
 }

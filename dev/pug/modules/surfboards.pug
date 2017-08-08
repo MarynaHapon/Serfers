@@ -1,0 +1,11 @@
+.wrapper.section
+        .inner
+            .surfboards
+
+                .carousel.carousel-main
+                    each link, alt in content.carousel
+                        +carouselItem(alt, link)
+
+                .carousel.carousel-nav
+                    each link, alt in content.carousel
+                        +carouselItem(alt, link)

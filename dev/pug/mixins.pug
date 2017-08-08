@@ -8,3 +8,7 @@ mixin socialItem(link, imgSrc, imgAlt)
 	.social-item
 		a(href= link)
 			img(src= imgSrc, alt= imgAlt)
+
+mixin carouselItem(imgAlt, imgSrc)
+	.carousel-cell
+		img(src= imgSrc, alt= imgAlt).carousel-img
