@@ -1,2 +1,48 @@
 .surfboards
-    size(550px, 450px)
+    position relative
+
+.surfboard-list
+    margin  35px
+
+.surfboard-item
+    width 100%
+    height 70vh
+    margin-right 10px
+    background $deep-sky-blue
+    //border-radius 5px
+    counter-increment carousel-cell
+
+    &:before
+        position(absolute, 85px, 2px, , )
+        display block
+        size(35px)
+        content counter(carousel-cell)
+        text-align center
+        line-height 35px
+        font-size 14px
+        color white
+        font-family 'Montserrat'
+        font-weight 500
+        background-color $black
+
+.surfboard-btn
+    size(35px)
+    border 0px
+
+    &:hover
+        cursor pointer
+
+.surfboard-btn-group
+    position(absolute, 50px, -2px, , )
+    z-index 120
+
+.surfboard-btn--previous
+    background $btn-surfboard-item url(../../static/img/general/arrow-left.png) no-repeat 5px
+
+.surfboard-btn--next
+    background $btn-surfboard-item url(../../static/img/general/arrow-right.png) no-repeat 5px
+
+.surfboard-title
+    font-face font-family 'Montserrat'
+    font-size 20px
+    font-weight bold
