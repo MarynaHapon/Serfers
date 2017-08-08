@@ -3,33 +3,30 @@ $(document).ready(function() {
 });
 
     // surfboards list
-// external js: flickity.pkgd.js
-
 var $surfboardList = $('.surfboard-list').flickity({
     draggable: false,
     prevNextButtons: false,
     pageDots: false
 });
-
-// previous
+    // previous
 $('.surfboard-btn--previous').on( 'click', function() {
     $surfboardList.flickity('previous', true);
 });
-// next
+    // next
 $('.surfboard-btn--next').on( 'click', function() {
     $surfboardList.flickity( 'next', true );
 });
 
 
     // caroucel
-// asNavFor can be set a selector string
+    // asNavFor can be set a selector string
 asNavFor: '.carousel-main'
-// or an element
+    // or an element
 asNavFor: $('.carousel-main')[0]
 asNavFor: document.querySelector('.carousel-main')
 
 $('.carousel-main').flickity();
-// 2nd carousel, navigation
+    // 2nd carousel, navigation
 $('.carousel-nav').flickity({
     asNavFor: '.carousel-main',
     contain: true,
@@ -44,4 +41,10 @@ $('body').append(log);
 $('[type*="radio"]').change(function () {
     var me = $(this);
     log.html(me.attr('value'));
+});
+
+
+    //  tabs
+$(document).ready(function(){
+    $(".tabs").lightTabs();
 });
