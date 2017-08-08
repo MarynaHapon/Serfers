@@ -1,0 +1,60 @@
+.star-cb-group
+    font-size 1em
+    unicode-bidi bidi-override
+    direction rtl
+
+.star-cb-group
+    font-size 1rem
+
+    & > input
+        display none
+
+        & + label
+            display inline-block
+            overflow hidden
+            text-indent 9999px
+            width 1em
+            white-space nowrap
+            cursor pointer
+
+            &:before
+                display inline-block
+                text-indent -9999px
+                content '\2606'
+                color #888
+
+    & > .star-cb-clear
+        & + label
+            text-indent -9999px
+            width 0.5em
+            margin-left -0.5em
+
+          &:before
+                width 0.5em
+
+    &:hover
+        & > input
+            & + label
+                &:before
+                  content '\2606'
+                  text-shadow none
+
+.star-cb-group > input:checked ~ label:before, .star-cb-group > input + label:hover ~ label:before, .star-cb-group > input + label:hover:before
+    content '\2605'
+    color $school-bus-yellow
+
+.star-cb-group:hover > input + label:hover ~ label:before, .star-cb-group:hover > input + label:hover:before
+    content '\2605'
+    color $school-bus-yellow
+
+fieldset
+    border 0
+    width 10em
+    padding 1em 1.5em 0.9em
+    margin 1em auto
+
+#log
+    margin 1em auto
+    width 5em
+    text-align center
+    background transparent
