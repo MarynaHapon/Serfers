@@ -2,10 +2,57 @@
         .inner
             .surfboards
 
-                .carousel.carousel-main
+                //.carousel.carousel-main
                     each link, alt in content.carousel
                         +carouselItem(alt, link)
 
-                .carousel.carousel-nav
+                //.carousel.carousel-nav
                     each link, alt in content.carousel
                         +carouselItem(alt, link)
+
+                .surfboard-btn-group
+                    button.surfboard-btn.surfboard-btn--previous
+                    button.surfboard-btn.surfboard-btn--next
+                .surfboard-list
+
+                    .surfboard-item
+                        div.surfboard-item-left
+                            .carousel.carousel-main
+                                each link, alt in content.surfboardsItem1.img
+                                    +carouselItem(alt, link)
+
+                            .carousel.carousel-nav
+                                each link, alt in content.surfboardsItem1.img
+                                    +carouselItem(alt, link)
+
+
+                        div.surfboard-item-right
+                            h2.surfboard-title= content.surfboardsItem1.title
+
+                            .radio-wrapper
+                                include ../components/radio
+
+                            .tabs
+                                ul
+                                    li.tabs-title DESCRIPTION
+                                    li.tabs-title FEATURES
+                                    li.tabs-title DIMENSIONS
+                                div
+                                    div.tabs-text= content.surfboardsItem1.Description
+                                    div.tabs-text= content.surfboardsItem1.Features
+                                    div.tabs-text= content.surfboardsItem1.Dimensions
+
+                            .price-btn-group
+                                p.surfboard-price= content.surfboardsItem1.price
+                                a.surfboard-btn-buy(href= content.surfboardsBtn.link)= content.surfboardsBtn.title
+
+
+
+
+                    .surfboard-item
+
+
+
+                    .surfboard-item
+
+

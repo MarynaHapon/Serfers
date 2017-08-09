@@ -3,6 +3,7 @@
     "title" : "Ride every wave as if it's your last",
     "subTitle" : "We love the motion of the ocean"
   },
+
   "carousel": {
     "surfboards0": "static/img/content/board1.png",
     "surfboards1": "static/img/content/photo1.jpeg",
@@ -18,5 +19,24 @@
     "surfboards11": "static/img/content/board9.png",
     "surfboards12": "static/img/content/board10.png",
     "surfboards13": "static/img/content/board11.png"
+  },
+
+  "surfboardsBtn": {
+    "title": "BUY NOW",
+    "link": "#"
+  },
+
+  "surfboardsItem1": {
+    "img": {
+      "surfboards0": "static/img/content/board1.png",
+      "surfboards4": "static/img/content/board2.png",
+      "surfboards2": "static/img/content/board3.png"
+    },
+    "title": "JR Surfboards The Donny Stoker Yellow/Green Rail Fade",
+    "rating": "(52)",
+    "Description": "Easy to ride, care free surfing craft that's fun for everyone, paddles well, super fast down the line and great for any level of surfing depending on who rides it. The Donny Stoker, a rework on design from stokesys first ever pro model. A super easy to surf and fun board. The Donny Stoker is a board for total freesurfing expression.",
+    "Features": "Easy to ride, care free surfing craft that's fun for everyone, paddles well, super fast down the line and great for any level of surfing depending on who rides it. The Donny Stoker, a rework on design from stokesys first ever pro model. A super easy to surf and fun board. The Donny Stoker is a board for total freesurfing expression.",
+    "Dimensions": "Easy to ride, care free surfing craft that's fun for everyone, paddles well, super fast down the line and great for any level of surfing depending on who rides it. The Donny Stoker, a rework on design from stokesys first ever pro model. A super easy to surf and fun board. The Donny Stoker is a board for total freesurfing expression.",
+    "price": "$499.99"
   }
 }
