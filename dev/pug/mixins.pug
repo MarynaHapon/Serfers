@@ -12,3 +12,11 @@ mixin socialItem(link, imgSrc, imgAlt)
 mixin carouselItem(imgAlt, imgSrc)
 	.carousel-cell
 		img(src= imgSrc, alt= imgAlt).carousel-img
+
+mixin starRating()
+	select(id!=attributes.id)
+		option(value='1') 1
+		option(value='2') 2
+		option(value='3') 3
+		option(value='4') 4
+		option(value='5') 5

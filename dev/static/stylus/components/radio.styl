@@ -1,60 +1,60 @@
-.star-cb-group
-    font-size 1em
-    unicode-bidi bidi-override
-    direction rtl
+.br-theme-fontawesome-stars-o
+    .br-widget
+        height 28px
+        white-space nowrap
 
-.star-cb-group
-    font-size 1rem
+        a
+            font normal normal normal 20px/1 FontAwesome
+            text-rendering auto
+            text-decoration none
+            margin-right 2px
 
-    & > input
-        display none
+            &:after
+                content '\f006'
+                color #d2d2d2
 
-        & + label
-            display inline-block
-            overflow hidden
-            text-indent 9999px
-            width 1em
-            white-space nowrap
-            cursor pointer
+            &.br-active
+                &:after
+                    content '\f005'
+                    color $school-bus-yellow
 
-            &:before
+            &.br-selected
+                &:after
+                    content '\f005'
+                    color $school-bus-yellow
+
+            &.br-fractional
+                &:after
+                    content '\f123'
+                    color $school-bus-yellow
+
+        .br-current-rating
+            display none
+
+    .br-readonly
+        a
+            cursor default
+
+    .br-reverse
+        a
+            &.br-fractional
                 display inline-block
-                text-indent -9999px
-                content '\2606'
-                color #888
+                transform scaleX(-1)
+                filter FlipH
 
-    & > .star-cb-clear
-        & + label
-            text-indent -9999px
-            width 0.5em
-            margin-left -0.5em
+@media print
+    .br-theme-fontawesome-stars-o
+        .br-widget
+            a
+                &:after
+                    content '\f006'
+                    color black
+                &.br-fractional
+                    &:after
+                        content '\f123'
+                        color black
 
-          &:before
-                width 0.5em
-
-    &:hover
-        & > input
-            & + label
-                &:before
-                  content '\2606'
-                  text-shadow none
-
-.star-cb-group > input:checked ~ label:before, .star-cb-group > input + label:hover ~ label:before, .star-cb-group > input + label:hover:before
-    content '\2605'
-    color $school-bus-yellow
-
-.star-cb-group:hover > input + label:hover ~ label:before, .star-cb-group:hover > input + label:hover:before
-    content '\2605'
-    color $school-bus-yellow
-
-fieldset
-    width 100px
-    margin 0 0 auto auto
-    padding 0
-    border 0
-
-#log
-    margin 1em auto
-    width 5em
-    text-align center
-    background transparent
+    .br-theme-fontawesome-stars-o .br-widget a.br-active:after,
+    .br-theme-fontawesome-stars-o .br-widget a.br-selected:after
+         content '\f005'
+         color black

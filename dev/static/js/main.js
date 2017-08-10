@@ -39,13 +39,18 @@ $('.carousel-nav').flickity({
 
 
     //  radio
-var logID = 'log',
-    log = $('<div id="'+logID+'"></div>');
-$('body').append(log);
-$('[type*="radio"]').change(function () {
-    var me = $(this);
-    log.html(me.attr('value'));
+$(function() {
+    $('#star-rating1').barrating({
+        theme: 'fontawesome-stars-o',
+        initialRating: 4
+    });
+    $('#star-rating2').barrating({
+        theme: 'fontawesome-stars-o',
+        initialRating: 5
+    });
+    $('#star-rating3').barrating({
+        theme: 'fontawesome-stars-o',
+        initialRating: 3
+    });
 });
-
-
 
