@@ -25,9 +25,9 @@
   },
   "surfboardsItem1": {
     "img": {
-      "surfboards0": "static/img/content/board11.png",
+      "surfboards0": "static/img/content/board3.png",
       "surfboards4": "static/img/content/board2.png",
-      "surfboards2": "static/img/content/board3.png"
+      "surfboards2": "static/img/content/board11.png"
     },
     "title": "JR Surfboards The Donny Stoker Yellow/Green Rail Fade",
     "rating": "(52)",
@@ -38,8 +38,8 @@
   },
   "surfboardsItem2": {
     "img": {
-      "surfboards0": "static/img/content/board4.png",
-      "surfboards4": "static/img/content/board5.png",
+      "surfboards0": "static/img/content/board5.png",
+      "surfboards4": "static/img/content/board4.png",
       "surfboards2": "static/img/content/board6.png"
     },
     "title": "JR Surfboards The Donny Stoker Yellow/Green Rail Fade",
@@ -51,8 +51,8 @@
   },
   "surfboardsItem3": {
     "img": {
-      "surfboards0": "static/img/content/board7.png",
-      "surfboards4": "static/img/content/board8.png",
+      "surfboards0": "static/img/content/board8.png",
+      "surfboards4": "static/img/content/board7.png",
       "surfboards2": "static/img/content/board9.png"
     },
     "title": "JR Surfboards The Donny Stoker Yellow/Green Rail Fade",

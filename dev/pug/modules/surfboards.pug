@@ -7,7 +7,7 @@
                 .surfboard-list
 
                     .surfboard-item
-                        div.surfboard-item-left
+                        .surfboard-item-left
                             .carousel.carousel-main.carousel-main1(data-flickity)
                                 each link, alt in content.surfboardsItem1.img
                                     +carouselItem(alt, link)
@@ -16,7 +16,7 @@
                                     +carouselItem(alt, link)
 
 
-                        div.surfboard-item-right
+                        .surfboard-item-right
                             h2.surfboard-title= content.surfboardsItem1.title
 
                             .radio-wrapper
@@ -37,7 +37,7 @@
 
 
                     .surfboard-item
-                        div.surfboard-item-left
+                        .surfboard-item-left
                             .carousel.carousel-main.carousel-main2(data-flickity)
                                 each link, alt in content.surfboardsItem2.img
                                     +carouselItem(alt, link)
@@ -46,7 +46,7 @@
                                     +carouselItem(alt, link)
 
 
-                        div.surfboard-item-right
+                        .surfboard-item-right
                             h2.surfboard-title= content.surfboardsItem2.title
 
                             .radio-wrapper
@@ -66,7 +66,7 @@
 
 
                     .surfboard-item
-                        div.surfboard-item-left
+                        .surfboard-item-left
                             .carousel.carousel-main.carousel-main3(data-flickity)
                                 each link, alt in content.surfboardsItem3.img
                                     +carouselItem(alt, link)
@@ -75,7 +75,7 @@
                                     +carouselItem(alt, link)
 
 
-                        div.surfboard-item-right
+                        .surfboard-item-right
                             h2.surfboard-title= content.surfboardsItem3.title
 
                             .radio-wrapper
@@ -92,4 +92,3 @@
                             .price-btn-group
                                 p.surfboard-price= content.surfboardsItem3.price
                                 a.surfboard-btn-buy(href= content.surfboardsBtn.link)= content.surfboardsBtn.title
-
