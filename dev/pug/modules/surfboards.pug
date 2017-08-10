@@ -8,10 +8,10 @@
 
                     .surfboard-item
                         div.surfboard-item-left
-                            .carousel.carousel-main
+                            .carousel.carousel-main.carousel-main1(data-flickity)
                                 each link, alt in content.surfboardsItem1.img
                                     +carouselItem(alt, link)
-                            .carousel.carousel-nav
+                            .carousel.carousel-nav(data-flickity='{ "asNavFor": ".carousel-main1", "contain": true, "pageDots": false }')
                                 each link, alt in content.surfboardsItem1.img
                                     +carouselItem(alt, link)
 
@@ -38,10 +38,10 @@
 
                     .surfboard-item
                         div.surfboard-item-left
-                            .carousel.carousel-main
+                            .carousel.carousel-main.carousel-main2(data-flickity)
                                 each link, alt in content.surfboardsItem2.img
                                     +carouselItem(alt, link)
-                            .carousel.carousel-nav
+                            .carousel.carousel-nav(data-flickity='{ "asNavFor": ".carousel-main2", "contain": true, "pageDots": false }')
                                 each link, alt in content.surfboardsItem2.img
                                     +carouselItem(alt, link)
 
@@ -67,10 +67,10 @@
 
                     .surfboard-item
                         div.surfboard-item-left
-                            .carousel.carousel-main
+                            .carousel.carousel-main.carousel-main3(data-flickity)
                                 each link, alt in content.surfboardsItem3.img
                                     +carouselItem(alt, link)
-                            .carousel.carousel-nav
+                            .carousel.carousel-nav(data-flickity='{ "asNavFor": ".carousel-main3", "contain": true, "pageDots": false }')
                                 each link, alt in content.surfboardsItem3.img
                                     +carouselItem(alt, link)
 
