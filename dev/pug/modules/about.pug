@@ -1,0 +1,12 @@
+.wrapper.section
+    .about
+        p.about-chapter= content.about.chapter
+
+        .about-info
+            h2.about-title= content.about.title
+            p.about-title= 'x'
+            p.about-text= content.about.text
+
+        .about-video
+            video#bgvid( playsinline='1', autoplay, muted='4', loop)
+                source(src='static/video/surf.mp4', type='video/mp4')
