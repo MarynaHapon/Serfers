@@ -3,6 +3,7 @@ $(document).ready(function() {
 });
 
     // surfboards list
+(function($){
 var $surfboardList = $('.surfboard-list').flickity({
     draggable: false,
     prevNextButtons: false,
@@ -16,9 +17,11 @@ $('.surfboard-btn--previous').on( 'click', function() {
 $('.surfboard-btn--next').on( 'click', function() {
     $surfboardList.flickity( 'next', true );
 });
+})(jQuery);
 
 
     // caroucel
+(function($){
     // asNavFor can be set a selector string
 asNavFor: '.carousel-main'
     // or an element
@@ -32,6 +35,7 @@ $('.carousel-nav').flickity({
     contain: true,
     pageDots: false
 });
+})(jQuery);
 
 
     //  radio
@@ -44,7 +48,4 @@ $('[type*="radio"]').change(function () {
 });
 
 
-    //  tabs
-$(document).ready(function(){
-    $(".tabs").lightTabs();
-});
+

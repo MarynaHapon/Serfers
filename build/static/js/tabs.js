@@ -1,28 +1,27 @@
-(function($){
-    jQuery.fn.lightTabs = function(options){
+$(function(){
+		$('.tab-panels .tabs li').on('click', function(){
 
-        var createTabs = function(){
-            tabs = this;
-            i = 0;
+			var $panel = $(this).closest('.tab-panels');
+			//event listener listening for clicks on the tabs panels
+			
+			//figure out which panel to show
 
-            showPage = function(i){
-                $(tabs).children("div").children("div").hide();
-                $(tabs).children("div").children("div").eq(i).show();
-                $(tabs).children("ul").children("li").removeClass("active");
-                $(tabs).children("ul").children("li").eq(i).addClass("active");
-            }
+			$panel.find(' .tabs li.active').removeClass('active');
 
-            showPage(0);
+			$(this).addClass('active');
 
-            $(tabs).children("ul").children("li").each(function(index, element){
-                $(element).attr("data-page", i);
-                i++;
-            });
+			var clickedPanel = $(this).attr('data-panel-name');
 
-            $(tabs).children("ul").children("li").click(function(){
-                showPage(parseInt($(this).attr("data-page")));
-            });
-        };
-        return this.each(createTabs);
-    };
-})(jQuery);
+			//hide current panel
+			$panel.find('.panel.active').slideUp(300, nextPanel);
+
+			//show new panel
+			function nextPanel(){
+				$(this).removeClass('active');
+
+				$('#'+clickedPanel).slideDown(300, function(){
+					$(this).addClass('active');
+				});
+			}
+		})
+	});
