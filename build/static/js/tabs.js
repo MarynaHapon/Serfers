@@ -13,13 +13,13 @@ $(function(){
 			var clickedPanel = $(this).attr('data-panel-name');
 
 			//hide current panel
-			$panel.find('.panel.active').slideUp(300, nextPanel);
+			$panel.find('.panel.active').slideUp(0, nextPanel);
 
 			//show new panel
 			function nextPanel(){
 				$(this).removeClass('active');
 
-				$('#'+clickedPanel).slideDown(300, function(){
+				$('#'+clickedPanel).slideDown(0, function(){
 					$(this).addClass('active');
 				});
 			}
