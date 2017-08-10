@@ -1,15 +1,6 @@
 .wrapper.section
         .inner
             .surfboards
-
-                //.carousel.carousel-main
-                    each link, alt in content.carousel
-                        +carouselItem(alt, link)
-
-                //.carousel.carousel-nav
-                    each link, alt in content.carousel
-                        +carouselItem(alt, link)
-
                 .surfboard-btn-group
                     button.surfboard-btn.surfboard-btn--previous
                     button.surfboard-btn.surfboard-btn--next
@@ -27,8 +18,10 @@
 
                         div.surfboard-item-right
                             h2.surfboard-title= content.surfboardsItem1.title
+
                             .radio-wrapper
-                                include ../components/radio
+                                +starRating()(id= 'star-rating1')
+
                             .tab-panels
                                 ul.tabs
                                     li.active(data-panel-name='panel11') DESCRIPTION
@@ -46,30 +39,57 @@
                     .surfboard-item
                         div.surfboard-item-left
                             .carousel.carousel-main
-                                each link, alt in content.surfboardsItem1.img
+                                each link, alt in content.surfboardsItem2.img
                                     +carouselItem(alt, link)
                             .carousel.carousel-nav
-                                each link, alt in content.surfboardsItem1.img
+                                each link, alt in content.surfboardsItem2.img
                                     +carouselItem(alt, link)
 
 
                         div.surfboard-item-right
-                            h2.surfboard-title= content.surfboardsItem1.title
+                            h2.surfboard-title= content.surfboardsItem2.title
+
                             .radio-wrapper
-                                include ../components/radio
+                                +starRating()(id= 'star-rating2')
+
                             .tab-panels
                                 ul.tabs
                                     li.active(data-panel-name='panel21') DESCRIPTION
                                     li(data-panel-name='panel22') FEATURES
                                     li(data-panel-name='panel23') DIMENSIONS
-                                #panel21.panel.active= content.surfboardsItem1.Description
-                                #panel22.panel= content.surfboardsItem1.Features
-                                #panel23.panel= content.surfboardsItem1.Dimensions
+                                #panel21.panel.active= content.surfboardsItem2.Description
+                                #panel22.panel= content.surfboardsItem2.Features
+                                #panel23.panel= content.surfboardsItem2.Dimensions
                             .price-btn-group
-                                p.surfboard-price= content.surfboardsItem1.price
+                                p.surfboard-price= content.surfboardsItem2.price
                                 a.surfboard-btn-buy(href= content.surfboardsBtn.link)= content.surfboardsBtn.title
 
 
                     .surfboard-item
+                        div.surfboard-item-left
+                            .carousel.carousel-main
+                                each link, alt in content.surfboardsItem3.img
+                                    +carouselItem(alt, link)
+                            .carousel.carousel-nav
+                                each link, alt in content.surfboardsItem3.img
+                                    +carouselItem(alt, link)
 
+
+                        div.surfboard-item-right
+                            h2.surfboard-title= content.surfboardsItem3.title
+
+                            .radio-wrapper
+                                +starRating()(id= 'star-rating3')
+
+                            .tab-panels
+                                ul.tabs
+                                    li.active(data-panel-name='panel31') DESCRIPTION
+                                    li(data-panel-name='panel32') FEATURES
+                                    li(data-panel-name='panel33') DIMENSIONS
+                                #panel31.panel.active= content.surfboardsItem3.Description
+                                #panel32.panel= content.surfboardsItem3.Features
+                                #panel33.panel= content.surfboardsItem3.Dimensions
+                            .price-btn-group
+                                p.surfboard-price= content.surfboardsItem3.price
+                                a.surfboard-btn-buy(href= content.surfboardsBtn.link)= content.surfboardsBtn.title
 

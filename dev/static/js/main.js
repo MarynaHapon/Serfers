@@ -38,6 +38,8 @@ $('.carousel-nav').flickity({
 })(jQuery);
 
 
+
+
     //  radio
 $(function() {
     $('#star-rating1').barrating({

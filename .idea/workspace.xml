@@ -4,21 +4,20 @@
     <list default="true" id="e5edf692-ca11-4e9c-83d8-15de65c8c5f6" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/img/content/header.jpeg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/img/content/photo1.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/pug/components/radio.pug" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/dev/static/img/general/header.jpeg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/static/img/content/board11.png" afterPath="$PROJECT_DIR$/build/static/img/content/board11.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/static/img/content/board11.png" afterPath="$PROJECT_DIR$/dev/static/img/content/board11.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/static/css/main.css" afterPath="$PROJECT_DIR$/build/static/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/static/js/main.js" afterPath="$PROJECT_DIR$/build/static/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/pug/layout/main.pug" afterPath="$PROJECT_DIR$/dev/pug/layout/main.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/pug/mixins.pug" afterPath="$PROJECT_DIR$/dev/pug/mixins.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/content.json" afterPath="$PROJECT_DIR$/data/content.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/pug/modules/footer.pug" afterPath="$PROJECT_DIR$/dev/pug/modules/footer.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/pug/modules/surfboards.pug" afterPath="$PROJECT_DIR$/dev/pug/modules/surfboards.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/static/js/main.js" afterPath="$PROJECT_DIR$/dev/static/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/static/stylus/components/radio.styl" afterPath="$PROJECT_DIR$/dev/static/stylus/components/radio.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/static/stylus/libs.styl" afterPath="$PROJECT_DIR$/dev/static/stylus/libs.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/static/stylus/modules/surfboards.styl" afterPath="$PROJECT_DIR$/dev/static/stylus/modules/surfboards.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/static/stylus/vars.styl" afterPath="$PROJECT_DIR$/dev/static/stylus/vars.styl" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,7 +34,7 @@
       <file leaf-file-name="tabs.styl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/static/stylus/components/tabs.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="-34">
               <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
               <folding />
             </state>
@@ -55,8 +54,8 @@
       <file leaf-file-name="surfboards.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/pug/modules/surfboards.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="69" column="51" lean-forward="false" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -75,7 +74,7 @@
       <file leaf-file-name="radio.styl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/static/stylus/components/radio.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-53">
+            <state relative-caret-position="-37">
               <caret line="41" column="36" lean-forward="false" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
               <folding />
             </state>
@@ -92,11 +91,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="surfboards.styl" pinned="false" current-in-tab="false">
+      <file leaf-file-name="content.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/content.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="27" column="48" lean-forward="false" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="surfboards.styl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dev/static/stylus/modules/surfboards.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="-343">
+              <caret line="46" column="18" lean-forward="false" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vars.styl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/static/stylus/vars.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,28 +124,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/static/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.barrating.min.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dev/static/js/jquery.barrating.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fontawesome-stars-o.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/jquery-bar-rating/dist/themes/fontawesome-stars-o.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="337">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -171,22 +170,22 @@
         <option value="$PROJECT_DIR$/dev/pug/components/menu.pug" />
         <option value="$PROJECT_DIR$/dev/static/stylus/components/caroucel.styl" />
         <option value="$PROJECT_DIR$/dev/static/stylus/main.styl" />
-        <option value="$PROJECT_DIR$/dev/static/stylus/vars.styl" />
         <option value="$PROJECT_DIR$/dev/static/js/tabs.js" />
-        <option value="$PROJECT_DIR$/dev/static/stylus/modules/surfboards.styl" />
         <option value="$PROJECT_DIR$/dev/pug/modules/header.pug" />
         <option value="$PROJECT_DIR$/dev/pug/modules/footer.pug" />
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa0.857/tabs.css" />
         <option value="$PROJECT_DIR$/dev/static/stylus/components/tabs.styl" />
-        <option value="$PROJECT_DIR$/data/content.json" />
         <option value="$PROJECT_DIR$/dev/pug/components/radio.pug" />
         <option value="$PROJECT_DIR$/dev/pug/layout/main.pug" />
         <option value="$PROJECT_DIR$/node_modules/jquery-bar-rating/dist/themes/css-stars.css" />
         <option value="$PROJECT_DIR$/dev/static/stylus/libs.styl" />
         <option value="$PROJECT_DIR$/dev/static/stylus/components/radio.styl" />
         <option value="$PROJECT_DIR$/dev/pug/mixins.pug" />
+        <option value="$PROJECT_DIR$/data/content.json" />
         <option value="$PROJECT_DIR$/dev/pug/modules/surfboards.pug" />
         <option value="$PROJECT_DIR$/dev/static/js/main.js" />
+        <option value="$PROJECT_DIR$/dev/static/stylus/vars.styl" />
+        <option value="$PROJECT_DIR$/dev/static/stylus/modules/surfboards.styl" />
       </list>
     </option>
   </component>
@@ -384,12 +383,12 @@
       <workItem from="1502278826736" duration="192000" />
       <workItem from="1502279486822" duration="586000" />
       <workItem from="1502301555574" duration="10074000" />
-      <workItem from="1502346072834" duration="11296000" />
+      <workItem from="1502346072834" duration="13918000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107206000" />
+    <option name="totallyTimeSpent" value="109828000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="736" extended-state="6" />
@@ -570,14 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/static/stylus/vars.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/static/stylus/main.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
@@ -706,30 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/content.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/static/stylus/components/tabs.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/pug/pages/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/jquery-bar-rating/dist/themes/fontawesome-stars-o.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -754,14 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/static/stylus/components/radio.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
-          <caret line="41" column="36" lean-forward="false" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/pug/mixins.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -778,34 +737,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/static/stylus/modules/surfboards.styl">
+    <entry file="file://$PROJECT_DIR$/dev/static/js/jquery.barrating.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/pug/pages/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/content.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" column="48" lean-forward="false" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/pug/modules/surfboards.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+        <state relative-caret-position="340">
+          <caret line="69" column="51" lean-forward="false" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/static/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+        <state relative-caret-position="337">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/static/js/jquery.barrating.min.js">
+    <entry file="file://$PROJECT_DIR$/dev/static/stylus/components/radio.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-37">
+          <caret line="41" column="36" lean-forward="false" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/static/stylus/components/tabs.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/static/stylus/vars.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/static/stylus/modules/surfboards.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-343">
+          <caret line="46" column="18" lean-forward="false" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
           <folding />
         </state>
       </provider>
