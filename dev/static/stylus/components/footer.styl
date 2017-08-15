@@ -1,0 +1,33 @@
+footer
+    font-family 'Montserrat'
+    bottom 0
+    width 100%
+    background-color $footer-bg
+
+.footer-inner
+    padding 20px
+    display flex
+    flex-direction row
+    justify-content space-between
+
+.footer-links
+    width 320px
+    column-count 2
+
+    a
+        display inline-block
+        padding 5px 25px
+        width 150px
+        font-size 14px
+        color $footer-link-color
+        background-color yellow
+        background url('../../static/img/general/sea.png') no-repeat 5px center
+
+        &:hover
+            background-color $footer-link-color-hover
+
+.footer-copyright
+    padding 15px 0
+    font-size 12px
+    text-align center
+    color $footer-copyright

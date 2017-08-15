@@ -11,7 +11,6 @@
     "TEAM": "index.html#team",
     "DEALERS": "index.html#dealers"
   },
-
   "social": {
     "facebook": {
       "link": "#",
@@ -28,5 +27,15 @@
       "src": "static/img/general/envelope.png",
       "alt": "mail link"
     }
+  },
+  "footerLinks": {
+    "About": "index.html#about",
+    "Boards": "index.html#boards",
+    "Accessories": "index.html#accessories",
+    "Blog": "index.html#blog",
+    "Technology": "index.html#technology",
+    "Team": "index.html#team",
+    "Dealers": "index.html#dealers",
+    "Contact us": "index.html#contact"
   }
 }

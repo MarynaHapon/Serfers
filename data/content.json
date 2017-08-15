@@ -121,5 +121,9 @@
       "imgAlt": "blog item 3",
       "text": "Surfboards are constantly evolving, and there are multiple board designs for a broad range of environments"
     }
+  },
+  "footer": {
+    "copyright": "© 2017 Surfers Co.",
+    "newsletter": "Subscribe to our newsletter"
   }
 }

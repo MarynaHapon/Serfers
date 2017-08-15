@@ -1,0 +1,11 @@
+footer
+    .footer-inner
+        .footer-form
+
+        .footer-links
+            ul
+                each link, title in nav.footerLinks
+                    li
+                        a(href= link)= title
+
+    p.footer-copyright= content.footer.copyright
