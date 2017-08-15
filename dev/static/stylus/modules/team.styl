@@ -1,0 +1,59 @@
+.team
+    background linear-gradient(60deg, #674EA7 80%, #ffffff 20%)
+    height 100vh
+
+.team-chapter
+    top 0
+
+.team-card
+    display flex
+    flex-direction column
+    justify-content center
+    align-items center
+    margin 2px
+    width 240px
+    transition 0.3s
+    border-radius 4px
+    background-color $team-card-bg
+    
+    &:hover
+        background-color $team-bg-hover
+        cursor pointer
+
+        .team-photo
+            border 2px solid white
+
+        .team-name
+        .team-instagram
+        .team-location
+            color $team-text-hover
+
+.team-name
+.team-instagram
+.team-location
+    font-family 'Montserrat'
+
+.team-instagram
+.team-location
+    color $team-text
+
+.team-photo
+    size(104px)
+    border-radius 100%
+    border 2px solid transparent
+
+.team-name
+    display inline-block
+    margin 15px 0 5px
+    font-size 18px
+    font-weight normal
+    color $team-name
+
+.separator
+    margin 10px auto
+    size(31px, 6px)
+    background-image url('../../static/img/general/waves.png')
+
+.team-location
+    padding 0 25px
+    background url('../../static/img/general/locate.png') no-repeat

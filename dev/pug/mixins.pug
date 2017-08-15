@@ -20,3 +20,11 @@ mixin starRating()
 		option(value='3') 3
 		option(value='4') 4
 		option(value='5') 5
+
+mixin teamCard(imgSrc, imgAlt, name, instagram, location)
+	.team-card
+		img(src= imgSrc, alt= imgAlt).team-photo
+		h4.team-name= name
+		p.team-instagram= instagram
+		.separator
+		p.team-location= location
