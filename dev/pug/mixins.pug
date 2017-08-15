@@ -28,3 +28,9 @@ mixin teamCard(imgSrc, imgAlt, name, instagram, location)
 		p.team-instagram= instagram
 		.separator
 		p.team-location= location
+
+
+mixin blogItem(imgSrc, imgAlt, text)
+	.blog-item(class!=attributes.class)
+		img(src= imgSrc, alt= imgAlt).blog-img
+		p.blog-text= text

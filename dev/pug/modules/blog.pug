@@ -1,0 +1,12 @@
+.wrapper.section
+    .inner
+        .blog
+            h2.blog-title= content.blog.title
+            p.blog-title= 'x'
+
+            .blog-list
+                +blogItem(content.blog.blogItem1.imgSrc, content.blog.blogItem1.imgAlt, content.blog.blogItem1.text)(class!= "blog-item--blue")
+                +blogItem(content.blog.blogItem2.imgSrc, content.blog.blogItem2.imgAlt, content.blog.blogItem2.text)(class!= "blog-item--yellow")
+                +blogItem(content.blog.blogItem3.imgSrc, content.blog.blogItem3.imgAlt, content.blog.blogItem3.text)(class!= "blog-item--marguerite")
+
+            a.btn.blog-btn(href= content.blog.blogBtn.link)= content.blog.blogBtn.title

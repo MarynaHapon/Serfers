@@ -1,0 +1,53 @@
+.blog
+    padding 100px 0
+    display flex
+    flex-direction column
+    justify-content center
+
+.blog-list
+    display flex
+    flex-direction row
+    justify-content space-around
+    align-items flex-start
+
+.blog-title
+.blog-text
+    font-family 'Montserrat'
+
+.blog-title
+    font-size 18px
+    text-align center
+    padding-bottom 15px
+    font-weight 500
+
+.blog-text
+    padding 20px
+    line-height 24px
+    font-size 16px
+    color $blog-text
+
+.blog-item
+    width 320px
+    transition 0.3s
+
+    &:hover
+        cursor pointer
+
+        .blog-text
+            color $blog-text-hover
+
+.blog-item--yellow
+    background linear-gradient(45deg, #f2d800 60%, #ffffff 60%)
+
+.blog-item--blue
+    background linear-gradient(114deg, #00b0ff 60%, #ffffff 60%)
+
+.blog-item--marguerite
+    background linear-gradient(-135deg, #674ea7 60%, #ffffff 60%)
+
+.blog-img
+    width 250px
+    margin 20px 35px 0px
+
+.blog-btn
+    margin 30px auto 0
