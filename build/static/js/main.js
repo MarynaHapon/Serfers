@@ -25,6 +25,8 @@ $('.surfboard-btn--next').on( 'click', function() {
 (function($){
     // asNavFor can be set a selector string
 asNavFor: '.carousel-main'
+asNavFor: $('.carousel-main')[0]
+asNavFor: document.querySelector('.carousel-main')
 
 $('.carousel-main').flickity();
     // 2nd carousel, navigation
@@ -53,4 +55,3 @@ $(function() {
         initialRating: 3
     });
 });
-
