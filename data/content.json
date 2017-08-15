@@ -68,5 +68,36 @@
     "title": "WE ARE SURFERS CO.",
     "text": "Lorem ipsum dolor sit amet, aeneam consectetur adipiscing elit. Fusce iaculis feugiat arcunum fermentum hendrerit. Suspendisse auctor labor nisi, et interdum diam facilisis, aliquam pulvinar semi egetis belle sollicitudin ut. Nullam tincidun finibustus scelerisque.",
     "": ""
+  },
+  "team": {
+    "chapter": "OUR TEAM"
+  },
+  "teamCard1": {
+    "name": "Taj Burrow",
+    "imgSrc": "static/img/content/team-card1.jpg",
+    "imgAlt": "team card 1",
+    "instagram": "@tajamos",
+    "location": "Yallingup, Australia"
+  },
+  "teamCard2": {
+    "name": "Malia Manuel",
+    "imgSrc": "static/img/content/team-card2.jpg",
+    "imgAlt": "team card 2",
+    "instagram": "@maliamanuel",
+    "location": "Wailua, Hi"
+  },
+  "teamCard3": {
+    "name": "Ian Walsh",
+    "imgSrc": "static/img/content/team-card3.jpg",
+    "imgAlt": "team card 3",
+    "instagram": "@ian.walsh",
+    "location": "Maui, Hi"
+  },
+  "teamCard4": {
+    "name": "Macy Callaghan",
+    "imgSrc": "static/img/content/team-card4.jpg",
+    "imgAlt": "team card 4",
+    "instagram": "@macyjanecallaghan",
+    "location": "San Clemente, CA"
   }
 }
