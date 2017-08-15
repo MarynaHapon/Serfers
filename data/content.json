@@ -99,5 +99,27 @@
     "imgAlt": "team card 4",
     "instagram": "@macyjanecallaghan",
     "location": "San Clemente, CA"
+  },
+  "blog": {
+    "title": "LATEST UPDATES",
+    "blogBtn": {
+      "title": "VIEW ALL POSTS",
+      "link": "#"
+    },
+    "blogItem1": {
+      "imgSrc": "static/img/content/blog1.jpg",
+      "imgAlt": "blog item 1",
+      "text": "Ellie Turner and Jobe Harris have taken out the 2016 British National Surf Championships"
+    },
+    "blogItem2": {
+      "imgSrc": "static/img/content/blog2.jpg",
+      "imgAlt": "blog item 2",
+      "text": "A large group of surfers invaded the coast of La Jolla Shores, in California, with a single goal in mind"
+    },
+    "blogItem3": {
+      "imgSrc": "static/img/content/blog3.jpg",
+      "imgAlt": "blog item 3",
+      "text": "Surfboards are constantly evolving, and there are multiple board designs for a broad range of environments"
+    }
   }
 }
