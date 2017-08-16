@@ -31,3 +31,36 @@ footer
     font-size 12px
     text-align center
     color $footer-copyright
+
+.footer-form-label
+    font-size 16px
+    color $footer-form-label
+
+.footer-form-input
+    display flex
+    flex-direction row
+    align-items center
+    padding 7px 0
+    border-bottom 2px solid $footer-form-mail
+
+.footer-form-mail
+.footer-form-btn
+    border 0
+
+.footer-form-mail
+    margin-right 50px
+    padding 0px 25px
+    font-size 14px
+    color $footer-form-mail
+    background-color transparent
+    background url('../../static/img/general/e-mail.png') no-repeat left center
+
+.footer-form-btn
+    size(40px)
+    border-radius 100%
+    background $footer-form-btn-bg url('../../static/img/general/arrow-right.png') no-repeat center
+    cursor pointer
+    transition 0.3s
+
+    &:hover
+        background-color $footer-form-btn-bg-hover

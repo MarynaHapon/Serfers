@@ -1,6 +1,15 @@
 footer
     .footer-inner
         .footer-form
+            form
+                p.footer-form-label= content.footer.newsletter
+                .footer-form-input
+                    input(type='email', name='email', autocomplete='off', placeholder='Your e-mail').footer-form-mail
+                    input(type='button').footer-form-btn
+
+
+
+
 
         .footer-links
             ul
