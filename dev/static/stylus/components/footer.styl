@@ -1,6 +1,5 @@
 footer
     font-family 'Montserrat'
-    bottom 0
     width 100%
     background-color $footer-bg
 
@@ -9,6 +8,7 @@ footer
     display flex
     flex-direction row
     justify-content space-between
+    align-items center
 
 .footer-links
     width 320px
@@ -20,11 +20,10 @@ footer
         width 150px
         font-size 14px
         color $footer-link-color
-        background-color yellow
         background url('../../static/img/general/sea.png') no-repeat 5px center
 
         &:hover
-            background-color $footer-link-color-hover
+            background-color $footer-link-bg-hover
 
 .footer-copyright
     padding 15px 0
