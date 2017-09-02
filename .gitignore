@@ -6,6 +6,8 @@ ehthumbs.db
 Desktop.ini
 
 # Folder
+.gulp
+.idea
 node_modules
 materials
 
