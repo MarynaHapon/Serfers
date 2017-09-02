@@ -4,8 +4,8 @@ footer
             form
                 p.footer-form-label= content.footer.newsletter
                 .footer-form-input
-                    input(type='email', name='email', autocomplete='off', placeholder='Your e-mail').footer-form-mail
-                    input(type='button').footer-form-btn
+                    input(type='email', name='email', autocomplete='off', placeholder='Your e-mail').sprite.footer-form-mail
+                    input(type='button').sprite.footer-form-btn
 
 
 
@@ -15,6 +15,6 @@ footer
             ul
                 each link, title in nav.footerLinks
                     li
-                        a(href= link)= title
+                        a(href= link).sprite= title
 
     p.footer-copyright= content.footer.copyright
