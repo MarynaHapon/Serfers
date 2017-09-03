@@ -21,23 +21,6 @@ $('.surfboard-btn--next').on( 'click', function() {
 })(jQuery);
 
 
-    // caroucel
-/**
-(function($){
-    // asNavFor can be set a selector string
-asNavFor: '.carousel-main'
-asNavFor: $('.carousel-main')[0]
-asNavFor: document.querySelector('.carousel-main')
-
-$('.carousel-main').flickity();
-    // 2nd carousel, navigation
-$('.carousel-nav').flickity({
-    asNavFor: '.carousel-main',
-    contain: true,
-    pageDots: false
-});
-})(jQuery);
-**/
 
 
     //  radio
@@ -64,3 +47,32 @@ $(function() {
     js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
+
+
+$(function(){
+    $('.tab-panels .tabs li').on('click', function(){
+
+        var $panel = $(this).closest('.tab-panels');
+        //event listener listening for clicks on the tabs panels
+
+        //figure out which panel to show
+
+        $panel.find(' .tabs li.active').removeClass('active');
+
+        $(this).addClass('active');
+
+        var clickedPanel = $(this).attr('data-panel-name');
+
+        //hide current panel
+        $panel.find('.panel.active').slideUp(0, nextPanel);
+
+        //show new panel
+        function nextPanel(){
+            $(this).removeClass('active');
+
+            $('#'+clickedPanel).slideDown(0, function(){
+                $(this).addClass('active');
+            });
+        }
+    })
+});
